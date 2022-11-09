@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     [SerializeField]private GameObject player;
-    [SerializeField]private bool isNav;
+    [SerializeField]public bool isNav;
     private NavMeshAgent inimigo;
 
     void Awake()
